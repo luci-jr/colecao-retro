@@ -1,0 +1,12 @@
+<section class="{{ jogo().genero.id }}">
+  <button class="favorito-btn" (click)="alternarFavorito()">
+    <span>{{ jogo().favorito ? '♥' : '♡' }}</span>
+  </button>
+  <div class="imagem">
+    <img [src]="jogo().imagem" [alt]="jogo().titulo">
+  </div>
+  <div class="info-livro">
+    <h2 class="texto-h2">{{ jogo().titulo }}</h2>
+    <h3 class="texto-h3">{{ jogo().autor }}</h3>
+  </div>
+</section>

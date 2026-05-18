@@ -1,0 +1,8 @@
+.banner-rodape img {
+  width: 100%;
+  height: 60px;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+  margin-top: 0; /* Removido o espaço */
+}

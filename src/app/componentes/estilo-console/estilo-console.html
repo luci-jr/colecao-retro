@@ -1,0 +1,18 @@
+<section class="generos {{ genero().id }}">
+    <h3 class="texto-h3-prata {{ genero().id }}">
+        {{ genero().value }}
+    </h3>
+    <span class="linha-destaque linha-destaque--pequena"></span>
+    @if(genero().jogos.length === 0) {
+        <div class="sem-livros">
+            <img src="/sem-jogos.png" alt="sem jogos">
+            <p class="texto-sem-livros">Não há jogos cadastrados neste console até o momento.</p>
+        </div>
+    }
+    <div class="livros-genero">
+        @for (jogo of genero().jogos; track jogo){
+            <app-jogo [jogo]="jogo"></app-jogo>
+        }
+    </div>
+</section>
+

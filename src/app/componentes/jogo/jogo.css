@@ -1,0 +1,91 @@
+/* ---------------------------------------------------------------
+   Livro (card) – estilo retro neon
+   --------------------------------------------------------------- */
+
+/* Container principal */
+section {
+  width: 260px;                /* Tamanho mais quadrado */
+  min-height: 260px;
+  margin: 0;                   /* Usando gap do container */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;     /* Centraliza o conteúdo verticalmente */
+  background-color: #22252a;   /* Fundo escuro igual ao print */
+  border-radius: 24px;         /* Bordas bem arredondadas como no print */
+  position: relative;
+  overflow: hidden;
+  padding: 24px;
+  border: 1px solid var(--theme-color, #d35400); /* Borda fina */
+  box-shadow: 0 0 10px var(--theme-color, #d35400); /* Brilho neon */
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Definição das cores por console – usa variável de tema */
+.playstation-1 { --theme-color: #00ffff; }
+.super-nintendo { --theme-color: #d35400; }
+.playstation-2 { --theme-color: #00ff00; }
+.dreamcast { --theme-color: #ffaa00; }
+.neo-geo { --theme-color: #ff0000; }
+
+/* Efeito de hover suave */
+section:hover {
+  transform: translateY(-4px) scale(1.04);
+  box-shadow: 0 0 15px var(--theme-color);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Conteúdo interno do card */
+section .info-livro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  overflow: hidden;
+}
+section .info-livro > * { margin: 8px; }
+
+/* Texto do título */
+.texto-h2 {
+  font-family: var(--font-neon);
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 26px;
+  text-align: center;
+  max-width: 90%;
+  color: #fff;
+  text-shadow: 0 0 4px #fff;
+}
+
+/* Texto do autor */
+.texto-h3 {
+  font-family: var(--font-neon);
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 20px;
+  text-align: center;
+  color: #ccc;
+}
+
+/* Imagem do jogo */
+section .imagem { margin-top: 12px; }
+section img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+/* Botão de favorito – estrela */
+.favorito-btn {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  color: #ffdd00;   /* dourado neon */
+}
+.favorito-btn:hover { opacity: 0.8; }
+

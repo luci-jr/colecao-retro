@@ -1,0 +1,11 @@
+.banner {
+  max-height: 500px; /* Aumentado um pouco mais */
+  overflow: hidden;
+}
+
+.banner img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  object-position: top; /* Garante que o topo da imagem apareça */
+}

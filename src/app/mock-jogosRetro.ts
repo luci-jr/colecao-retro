@@ -1,0 +1,223 @@
+import { InterfaceJogo } from './componentes/jogo/interface-jogo';
+
+export const jogosRetro: InterfaceJogo[] = [
+  // --- SUPER NINTENDO (SNES) ---
+  {
+    titulo: 'Super Mario World',
+    autor: 'Nintendo',
+    genero: { id: 'super-nintendo', value: 'Super Nintendo', jogos: [] },
+    favorito: false,
+    imagem: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMVjIYD60XBfPZtJMIkj9gF_8tJGOfhPZkQA&s',
+  },
+  {
+    titulo: 'The Legend of Zelda: A Link to the Past',
+    autor: 'Nintendo',
+    genero: { id: 'super-nintendo', value: 'Super Nintendo', jogos: [] },
+    favorito: false,
+    imagem: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB790N_osPH89jqavA2KGGvRMokjGiE0z3DA&s',
+  },
+  {
+    titulo: 'Super Metroid',
+    autor: 'Nintendo',
+    genero: { id: 'super-nintendo', value: 'Super Nintendo', jogos: [] },
+    favorito: false,
+    imagem: 'https://upload.wikimedia.org/wikipedia/en/e/e4/Smetroidbox.jpg',
+  },
+  {
+    titulo: 'Street Fighter II Turbo',
+    autor: 'Capcom',
+    genero: { id: 'super-nintendo', value: 'Super Nintendo', jogos: [] },
+    favorito: false,
+    imagem: 'https://cdn.awsli.com.br/600x700/17/17021/produto/112741592/8b24f39f32.jpg',
+  },
+  {
+    titulo: 'Chrono Trigger',
+    autor: 'Square',
+    genero: { id: 'super-nintendo', value: 'Super Nintendo', jogos: [] },
+    favorito: false,
+    imagem: 'https://upload.wikimedia.org/wikipedia/pt/a/a7/Chrono_Trigger.jpg',
+  },
+  {
+    titulo: 'Donkey Kong Country 2: Diddy\'s Kong Quest',
+    autor: 'Rare / Nintendo',
+    genero: { id: 'super-nintendo', value: 'Super Nintendo', jogos: [] },
+    favorito: false,
+    imagem: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoGD8o80Ie-nh5w3aWOBKnIJQ9z87v3c3jUg&s',
+  },
+
+  // --- NEO GEO ---
+  {
+    titulo: 'The King of Fighters \'98',
+    autor: 'SNK',
+    genero: { id: 'neo-geo', value: 'Neo Geo', jogos: [] },
+    favorito: false,
+    imagem: 'https://down-br.img.susercontent.com/file/sg-11134201-7rdx5-m0hgirhtyoled5',
+  },
+  {
+    titulo: 'Samurai Shodown II',
+    autor: 'SNK',
+    genero: { id: 'neo-geo', value: 'Neo Geo', jogos: [] },
+    favorito: false,
+    imagem: 'https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2r8h.jpg',
+  },
+  {
+    titulo: 'Metal Slug X',
+    autor: 'SNK',
+    genero: { id: 'neo-geo', value: 'Neo Geo', jogos: [] },
+    favorito: false,
+    imagem: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_oTxTHLMnmqEpbn4iCgzrG7ldzdyQwp19gQ&s',
+  },
+  {
+    titulo: 'Garou: Mark of the Wolves',
+    autor: 'SNK',
+    genero: { id: 'neo-geo', value: 'Neo Geo', jogos: [] },
+    favorito: false,
+    imagem: 'https://m.media-amazon.com/images/M/MV5BNmM2OGEwMDItNzhjNy00MWJkLTljY2EtYTk3MjA5ZmM5ZWE1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+  },
+  {
+    titulo: 'The Last Blade 2',
+    autor: 'SNK',
+    genero: { id: 'neo-geo', value: 'Neo Geo', jogos: [] },
+    favorito: false,
+    imagem: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTl_LGfgAr3JqvMFs2OCagpRWF-hLv8rWW72g&s',
+  },
+  {
+    titulo: 'Fatal Fury Special',
+    autor: 'SNK',
+    genero: { id: 'neo-geo', value: 'Neo Geo', jogos: [] },
+    favorito: false,
+    imagem: 'https://store-images.s-microsoft.com/image/apps.62981.69561891979433644.07636d85-ce00-49a4-8889-266ae98629b0.8d14dd72-fe24-40a3-be8c-9dd383d1bb20',
+  },
+
+  // --- PLAYSTATION 1 ---
+  {
+    titulo: 'Resident Evil 2',
+    autor: 'Capcom',
+    genero: { id: 'playstation-1', value: 'PlayStation 1', jogos: [] },
+    favorito: false,
+    imagem: 'https://image.api.playstation.com/vulcan/ap/rnd/202206/0204/uDFoGvnMTTCLVmTwjj0njGWC.png',
+  },
+  {
+    titulo: 'Mortal Kombat Trilogy',
+    autor: 'Midway',
+    genero: { id: 'playstation-1', value: 'PlayStation 1', jogos: [] },
+    favorito: false,
+    imagem: 'https://static.wikia.nocookie.net/mortalkombat/images/2/26/Img_mk_trilogy_capa_playstation_1.jpg/revision/latest?cb=20200606170200&path-prefix=pt-br',
+  },
+  {
+    titulo: 'Castlevania: Symphony of the Night',
+    autor: 'Konami',
+    genero: { id: 'playstation-1', value: 'PlayStation 1', jogos: [] },
+    favorito: false,
+    imagem: 'https://upload.wikimedia.org/wikipedia/pt/thumb/e/e0/Castlevania_Symphony_of_the_Night_Capa.jpg/330px-Castlevania_Symphony_of_the_Night_Capa.jpg',
+  },
+  {
+    titulo: 'Final Fantasy VIII',
+    autor: 'Square',
+    genero: { id: 'playstation-1', value: 'PlayStation 1', jogos: [] },
+    favorito: false,
+    imagem: 'https://www.vgdb.com.br/gf/fotos/games/media_68854/final-fantasy-viii-68854.jpg',
+  },
+  {
+    titulo: 'Silent Hill',
+    autor: 'Konami',
+    genero: { id: 'playstation-1', value: 'PlayStation 1', jogos: [] },
+    favorito: false,
+    imagem: 'https://jogoveio.com.br/wp-content/uploads/2019/07/sh-cover-jogoveio.jpg',
+  },
+  {
+    titulo: 'Metal Gear Solid',
+    autor: 'Konami',
+    genero: { id: 'playstation-1', value: 'PlayStation 1', jogos: [] },
+    favorito: false,
+    imagem: 'https://down-br.img.susercontent.com/file/br-11134207-7r98o-m26oswyrbltyb4',
+  },
+
+  // --- SEGA DREAMCAST ---
+  {
+    titulo: 'Sonic Adventure',
+    autor: 'Sonic Team / SEGA',
+    genero: { id: 'dreamcast', value: 'Dreamcast', jogos: [] },
+    favorito: false,
+    imagem: 'https://m.media-amazon.com/images/I/61ja9nFmKyL._AC_UF1000,1000_QL80_.jpg',
+  },
+  {
+    titulo: 'Shenmue',
+    autor: 'SEGA AM2 / SEGA',
+    genero: { id: 'dreamcast', value: 'Dreamcast', jogos: [] },
+    favorito: false,
+    imagem: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5_o5GnvNEf0tuLTTuKU7qKYcxlnOvANv0ug&s',
+  },
+  {
+    titulo: 'Crazy Taxi',
+    autor: 'Hitmaker / SEGA',
+    genero: { id: 'dreamcast', value: 'Dreamcast', jogos: [] },
+    favorito: false,
+    imagem: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5HtgaOtkHmk30iefEt4kPWLh-j9E4EDuwAw&s',
+  },
+  {
+    titulo: 'Soulcalibur',
+    autor: 'Namco',
+    genero: { id: 'dreamcast', value: 'Dreamcast', jogos: [] },
+    favorito: false,
+    imagem: 'https://i.redd.it/rucceef865u31.jpg',
+  },
+  {
+    titulo: 'Jet Set Radio',
+    autor: 'Smilebit / SEGA',
+    genero: { id: 'dreamcast', value: 'Dreamcast', jogos: [] },
+    favorito: false,
+    imagem: 'https://http2.mlstatic.com/D_NQ_NP_881862-MLB89870269787_082025-O.webp',
+  },
+  {
+    titulo: 'Marvel vs. Capcom 2: New Age of Heroes',
+    autor: 'Capcom',
+    genero: { id: 'dreamcast', value: 'Dreamcast', jogos: [] },
+    favorito: false,
+    imagem: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_iZqxQBYTrhav1pSRM_cEXQtM2R2GMxz6Vg&s',
+  },
+
+  // --- PLAYSTATION 2 ---
+  {
+    titulo: 'Resident Evil 4',
+    autor: 'Capcom',
+    genero: { id: 'playstation-2', value: 'PlayStation 2', jogos: [] },
+    favorito: false,
+    imagem: 'https://static.wikia.nocookie.net/residentevilpt-br/images/0/03/Resident_Evil_4_498f2174c6979.jpg/revision/latest/scale-to-width-down/340?cb=20120430235028&path-prefix=pt-br',
+  },
+  {
+    titulo: 'The King of Fighters XI',
+    autor: 'SNK',
+    genero: { id: 'playstation-2', value: 'PlayStation 2', jogos: [] },
+    favorito: false,
+    imagem: 'https://static.wikia.nocookie.net/kof/images/6/65/The_King_of_Fighters_XI_Box.jpg/revision/latest/scale-to-width-down/640?cb=20150120204341&path-prefix=pt-br',
+  },
+  {
+    titulo: 'Grand Theft Auto: San Andreas',
+    autor: 'Rockstar Games',
+    genero: { id: 'playstation-2', value: 'PlayStation 2', jogos: [] },
+    favorito: false,
+    imagem: 'https://upload.wikimedia.org/wikipedia/pt/d/d3/Grand_Theft_Auto_San_Andreas_capa.png',
+  },
+  {
+    titulo: 'God of War II',
+    autor: 'Santa Monica Studio',
+    genero: { id: 'playstation-2', value: 'PlayStation 2', jogos: [] },
+    favorito: false,
+    imagem: 'https://greenhillszone.com/wp-content/uploads/2012/08/932295_76312_front.jpg',
+  },
+  {
+    titulo: 'Shadow of the Colossus',
+    autor: 'Team Ico / Sony',
+    genero: { id: 'playstation-2', value: 'PlayStation 2', jogos: [] },
+    favorito: false,
+    imagem: 'https://sm.ign.com/ign_br/cover/s/shadow-of-/shadow-of-the-colossus_3b8q.jpg',
+  },
+  {
+    titulo: 'Devil May Cry 3: Dante\'s Awakening',
+    autor: 'Capcom',
+    genero: { id: 'playstation-2', value: 'PlayStation 2', jogos: [] },
+    favorito: false,
+    imagem: 'https://m.media-amazon.com/images/I/71R+Na4J2aL._AC_UF1000,1000_QL80_.jpg',
+  },
+];

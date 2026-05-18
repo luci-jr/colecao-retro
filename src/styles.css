@@ -1,0 +1,30 @@
+/* You can add global styles to this file, and also import other style files */
+body, html {
+  margin: 0;
+  padding: 0;
+  background-color: #0b0c10;
+  color: #fff;
+  font-family: 'Orbitron', sans-serif;
+}
+:root {
+  --font-retro: 'Press Start 2P', cursive;
+  --font-neon: 'Orbitron', sans-serif;
+
+  --color-primaria: #0ff;
+  --color-secundaria: #c5c6c7;
+}
+
+.texto-titulo {
+  font-family: var(--font-retro);
+  font-size: 32px;
+  line-height: 72px;
+  text-align: center;
+  color: var(--color-primaria);
+  text-shadow: 0 0 5px var(--color-primaria), 0 0 15px var(--color-primaria);
+  margin-top: 40px;
+}
+.linha-destaque {
+  display: block;
+  margin: 0 auto;
+  box-shadow: 0 0 10px var(--color-primaria);
+}

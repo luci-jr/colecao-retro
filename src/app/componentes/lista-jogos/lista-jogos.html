@@ -1,0 +1,9 @@
+<section>
+    <h2 class="texto-titulo">
+        Gamelist de Jogos
+    </h2>
+    <span class="linha-destaque linha-destaque--grande"></span>
+</section>
+@for (console of consoles; track console) {
+    <app-estilo-console [genero]="console"></app-estilo-console>
+}

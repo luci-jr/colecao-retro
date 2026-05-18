@@ -1,0 +1,98 @@
+/* ---------------------------------------------------------------
+   Gênero Literário – layout e estilos temáticos (retro consoles)
+   --------------------------------------------------------------- */
+
+/* Container principal que agrupa os gêneros */
+.generos {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 48px 20px; /* Reduzido padding lateral para caber mais cards */
+}
+
+/* Área que contém os cards de jogos de um gênero */
+.livros-genero {
+  width: 100%;
+  display: flex;
+  flex-direction: row; /* Força disposição em linha */
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px; /* Espaçamento uniforme entre os cards */
+  padding: 24px 0;
+}
+
+/* Pequena linha de destaque (usada em alguns componentes) */
+.linha-destaque--pequena {
+  width: 32px;
+}
+
+/* Título da seção (ex.: "Super Nintendo") */
+.texto-h3-prata {
+  font-family: var(--font-neon);
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 38px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #fff;
+  text-shadow: 0 0 4px #fff;
+}
+
+/* Estado quando não há jogos no gênero */
+.sem-livros {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 16px;
+}
+.sem-livros img {
+  width: 150px;
+  opacity: 0.8;
+}
+.texto-sem-livros {
+  text-align: center;
+  margin-top: 16px;
+  color: #fff;
+  font-size: 20px;
+}
+
+/* Cores de fundo dos cards por console (sombra leve) */
+.playstation-1 { background-color: rgba(0,255,255,0.05); }
+.super-nintendo { background-color: rgba(211,84,0,0.05); } /* Laranja/Marrom */
+.playstation-2 { background-color: rgba(0,255,0,0.05); }
+.dreamcast { background-color: rgba(255,170,0,0.05); }
+.neo-geo { background-color: rgba(255,0,0,0.05); }
+
+/* Bordas inferiores (legenda) por console */
+.generos .playstation-1 {
+  border-bottom: 4px solid #00ffff;
+  display: inline-block;
+  color: #00ffff;
+  text-shadow: 0 0 8px #00ffff;
+}
+.generos .super-nintendo {
+  border-bottom: 4px solid #d35400; /* Laranja/Marrom */
+  display: inline-block;
+  color: #d35400;
+  text-shadow: 0 0 8px #d35400;
+}
+.generos .playstation-2 {
+  border-bottom: 4px solid #00ff00;
+  display: inline-block;
+  color: #00ff00;
+  text-shadow: 0 0 8px #00ff00;
+}
+.generos .dreamcast {
+  border-bottom: 4px solid #ffaa00;
+  display: inline-block;
+  color: #ffaa00;
+  text-shadow: 0 0 8px #ffaa00;
+}
+.generos .neo-geo {
+  border-bottom: 4px solid #ff0000;
+  display: inline-block;
+  color: #ff0000;
+  text-shadow: 0 0 8px #ff0000;
+}
